@@ -1,0 +1,130 @@
+/* App.css */
+body {
+    margin: 0;
+  
+  }
+    .background-container1 {
+      min-height: 150vh;
+  
+        margin-top: 10px;
+        
+      background-image: url('/courosel2.png'); /* Path relative to the public folder */
+      background-size: cover;
+      background-position: top center;
+      display: flex;
+      align-items: center; /* Vertically center */
+      justify-content: flex-start; /* Align content to the left */
+    
+      position: relative;
+      
+    }
+    
+    .overlay-content1 {
+      color: black;
+      background-color: transparent; /* Semi-transparent background */
+      padding: 20px;
+      border-radius: 10px;
+      width: 500px; /* Restrict the width for better alignment */
+      margin-left: 750px;
+      margin-bottom: 500px;
+      align-items: center;
+    }
+    
+    .heading1 {
+      font-size: 63px;
+      margin-bottom: 10px;
+      font-family: semiBold, serif;
+      align-items: center;
+    }
+    
+    .description1 {
+      font-size: 1rem;
+      margin-bottom: 20px;
+      color: #555;
+    }
+    
+    .cta-button1 {
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: white;
+     
+      border: none;
+      border-radius: 25px;
+      height: 45px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-right: 30px;
+      background-color: transparent; /* Default transparent background */
+    border: 2px solid #75D0FE; /* Add border for visibility */
+    }
+    .cta-button1:last-child {
+      margin-right: 0; /* Ensures no extra margin on the last button */
+    }
+    
+    .cta-button1:hover {
+      background-color: black;
+    }
+    .primary-button1 {
+      background-color: black; /* Background only for the first button */
+      border: none;
+    }
+    
+    .primary-button1:hover {
+      background-color: #24a5e5;
+    }
+  
+    .overlay-content2 {
+        position: absolute;
+        left: 10%;  /* Stick to the extreme left */
+        top: 80%;  /* Adjust this value to place it lower */
+        transform: translateY(-50%); /* Adjust for better centering */
+        color: black;
+        background-color: transparent;
+        padding: 20px;
+        border-radius: 10px;
+        width: 500px; /* Restrict width */
+    
+      }
+      
+      .heading2 {
+        font-size: 63px;
+        margin-bottom: 10px;
+        font-family: semiBold, serif;
+        align-items: center;
+      }
+      
+      .description2 {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        color: #555;
+      }
+      
+      .cta-button2 {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: white;
+       
+        border: none;
+        border-radius: 25px;
+        height: 45px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin-right: 30px;
+        background-color: transparent; /* Default transparent background */
+      border: 2px solid #75D0FE; /* Add border for visibility */
+      }
+      .cta-button2:last-child {
+        margin-right: 0; /* Ensures no extra margin on the last button */
+      }
+      
+      .cta-button2:hover {
+        background-color: black;
+      }
+      .primary-button2 {
+        background-color: black; /* Background only for the first button */
+        border: none;
+      }
+      
+      .primary-button2:hover {
+        background-color: #24a5e5;
+      }
